@@ -76,7 +76,7 @@
       dur << [dit,dit,dah,dah,dah]<< cs
     when 51 #3
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dit,dit,dah,dah]< <cs
+      dur << [dit,dit,dit,dah,dah]<< cs
     when 52 #4
       note << [pt,pt,pt,pt,pt]<< :r
       dur << [dit,dit,dit,dit,dah]<< cs
