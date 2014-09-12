@@ -61,7 +61,7 @@
       dur << [dit,dah,dit,dah,dit,dah]<< cs
     when 44 #comma
       note << [pt,pt,pt,pt,pt,pt]<< :r
-      dur << [dah,dah,dit,dit,dah,dah]<<cs
+      dur << [dah,dah,dit,dit,dah,dah]<< cs
     when 45 # hyphen
       note << [pt,pt,pt,pt,pt,pt]<< :r
       dur << [dah,dit,dit,dit,dit,dah]<< cs
