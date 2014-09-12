@@ -81,7 +81,7 @@
       note << [pt,pt,pt,pt,pt]<<:r
       dur << [dit,dit,dit,dit,dah]<<cs
     when 53 #5
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dit,dit,dit,dit,dit]<<cs
     when 54 #6
       note << [pt,pt,pt,pt,pt]<<:r
@@ -93,7 +93,7 @@
       note << [pt,pt,pt,pt,pt]<<:r
       dur << [dah,dah,dah,dit,dit]<<cs
     when 57 #9
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dah,dah,dah,dah,dit]<<cs
     else #otherwise it is an alphabetic character
       note << lookup[ch - 97][0].flatten << :r #look it up in the lookup array
