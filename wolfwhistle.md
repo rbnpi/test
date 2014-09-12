@@ -1,4 +1,4 @@
-'''Ruby
+```Ruby
 define :wolfwhistle do |n|
   n=note_info(n).midi_note
   p = play n,sustain: 0.2,release: 0.1
@@ -16,4 +16,4 @@ in_thread do
   wolfwhistle(:c5)
 end
 wolfwhistle(:g5)
-'''
+```
