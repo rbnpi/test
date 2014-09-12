@@ -52,49 +52,49 @@
       dur << ws #for word gap
     when 33 # exclamation mark
       note << [pt,pt,pt,pt]<< :r
-      dur << [dah,dah,dah,dit]<<cs
+      dur << [dah,dah,dah,dit]<< cs
     when 63 #question mark
       note << [pt,pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dit,dah,dah,dit,dit]<<cs
+      dur << [dit,dit,dah,dah,dit,dit]<< cs
     when 46 # fullstop
       note << [pt,pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dah,dit,dah,dit,dah]<<cs
+      dur << [dit,dah,dit,dah,dit,dah]<< cs
     when 44 #comma
       note << [pt,pt,pt,pt,pt,pt]<< :r
       dur << [dah,dah,dit,dit,dah,dah]<<cs
     when 45 # hyphen
       note << [pt,pt,pt,pt,pt,pt]<< :r
-      dur << [dah,dit,dit,dit,dit,dah]<<cs
+      dur << [dah,dit,dit,dit,dit,dah]<< cs
     when 48 #0
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dah,dah,dah,dah,dah]<<cs
+      dur << [dah,dah,dah,dah,dah]<< cs
     when 49 #1
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dah,dah,dah,dah]<<cs
+      dur << [dit,dah,dah,dah,dah]<< cs
     when 50 #2
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dit,dah,dah,dah]<<cs
+      dur << [dit,dit,dah,dah,dah]<< cs
     when 51 #3
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dit,dit,dah,dah]<<cs
+      dur << [dit,dit,dit,dah,dah]< <cs
     when 52 #4
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dit,dit,dit,dah]<<cs
+      dur << [dit,dit,dit,dit,dah]<< cs
     when 53 #5
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dit,dit,dit,dit,dit]<<cs
+      dur << [dit,dit,dit,dit,dit]<< cs
     when 54 #6
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dah,dit,dit,dit,dit]<<cs
+      dur << [dah,dit,dit,dit,dit]<< cs
     when 55 #7
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dah,dah,dit,dit,dit]<<cs
+      dur << [dah,dah,dit,dit,dit]<< cs
     when 56 #8
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dah,dah,dah,dit,dit]<<cs
+      dur << [dah,dah,dah,dit,dit]<< cs
     when 57 #9
       note << [pt,pt,pt,pt,pt]<< :r
-      dur << [dah,dah,dah,dah,dit]<<cs
+      dur << [dah,dah,dah,dah,dit]<< cs
     else #otherwise it is an alphabetic character
       note << lookup[ch - 97][0].flatten << :r #look it up in the lookup array
       #97 = a which is first char in array so subtract 97 to get index 0
