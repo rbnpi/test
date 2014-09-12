@@ -54,43 +54,43 @@
       note << [pt,pt,pt,pt]<<:r
       dur << [dah,dah,dah,dit]<<cs
     when 63 #question mark
-      note << [pt,pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt,pt]<< :r
       dur << [dit,dit,dah,dah,dit,dit]<<cs
     when 46 # fullstop
-      note << [pt,pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt,pt]<< :r
       dur << [dit,dah,dit,dah,dit,dah]<<cs
     when 44 #comma
-      note << [pt,pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt,pt]<< :r
       dur << [dah,dah,dit,dit,dah,dah]<<cs
     when 45 # hyphen
-      note << [pt,pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt,pt]<< :r
       dur << [dah,dit,dit,dit,dit,dah]<<cs
     when 48 #0
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dah,dah,dah,dah,dah]<<cs
     when 49 #1
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dit,dah,dah,dah,dah]<<cs
     when 50 #2
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dit,dit,dah,dah,dah]<<cs
     when 51 #3
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dit,dit,dit,dah,dah]<<cs
     when 52 #4
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dit,dit,dit,dit,dah]<<cs
     when 53 #5
       note << [pt,pt,pt,pt,pt]<< :r
       dur << [dit,dit,dit,dit,dit]<<cs
     when 54 #6
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dah,dit,dit,dit,dit]<<cs
     when 55 #7
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dah,dah,dit,dit,dit]<<cs
     when 56 #8
-      note << [pt,pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt,pt]<< :r
       dur << [dah,dah,dah,dit,dit]<<cs
     when 57 #9
       note << [pt,pt,pt,pt,pt]<< :r
