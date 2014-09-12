@@ -51,7 +51,7 @@
       note << :r
       dur << ws #for word gap
     when 33 # exclamation mark
-      note << [pt,pt,pt,pt]<<:r
+      note << [pt,pt,pt,pt]<< :r
       dur << [dah,dah,dah,dit]<<cs
     when 63 #question mark
       note << [pt,pt,pt,pt,pt,pt]<< :r
